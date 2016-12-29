@@ -15,75 +15,52 @@ dotfiles_files:
   - .vimrc
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
-  - autoconf
-  - bash-completion
-  - chromedriver
+  - cookiecutter
   - doxygen
-  - gettext
   - git
   - go
   - gpg
-  - hub
-  - httpie
-  - iperf
-  - libdvdcss
-  - libevent
-  - packer
+  - hugo
   - python
-  - sqlite
-  - mcrypt
-  - mysql
-  - nmap
-  - npm
-  - nvm
-  - php70
-  - php70-mcrypt
-  - php70-xdebug
+  - python3
+  - node
+  - rsync
   - ssh-copy-id
-  - cowsay
-  - readline
-  - subversion
-  - openssl
-  - pv
-  - drush
+  - tmux
+  - tree
   - wget
-  - wrk
+  - youtube-dl
 
 homebrew_taps:
   - homebrew/core
-  - caskroom/cask
-  - homebrew/binary
   - homebrew/dupes
-  - homebrew/php
   - homebrew/versions
+  - caskroom/cask
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - docker
+  - android-studio
+  - appcleaner
+  - atom
+  - coconutbattery
   - dropbox
-  - fing
   - firefox
+  - flux
   - google-chrome
   - handbrake
-  - hipchat
+  - iterm2
   - java
-  - kdiff3
-  - licecap
-  - limechat
   - macvim
-  # - menumeters
-  # - yujitach-menumeters # Forked version for 10.11+ support.
-  - nvalt
-  - sequel-pro
+  - onyx
+  - pycharm
   - skype
-  - skitch
-  - slack
-  - sublime-text
-  - transmit
+  - spectacle
+  - torbrowser
   - vagrant
   - virtualbox
+  - viscosity
   - vlc
+  - ynab
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_app_ids: []
