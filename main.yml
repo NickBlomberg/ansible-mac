@@ -15,5 +15,5 @@
 
     # TODO: Use sudo once .macos can be run via root with no user interaction.
     - name: Run .macos dotfile
-      shell: ~/.macos --no-restart
+      shell: bash ~/.macos --no-restart
       changed_when: false
