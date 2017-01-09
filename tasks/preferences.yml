@@ -1,1 +1,9 @@
 ---
+# Install Oh My Zsh
+- name: "Clone repo from github to home folder"
+  git:
+    repo: https://github.com/robbyrussell/oh-my-zsh.git
+    dest: ~/.oh-my-zsh
+
+- name: "Change the user's default shell to Zsh"
+  command: chsh -s /bin/zsh

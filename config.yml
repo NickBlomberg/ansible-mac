@@ -29,6 +29,8 @@ homebrew_installed_packages:
   - tree
   - wget
   - youtube-dl
+  - zsh
+  - zsh-completions
 
 homebrew_taps:
   - homebrew/core
