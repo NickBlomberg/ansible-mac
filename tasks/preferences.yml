@@ -6,4 +6,5 @@
     dest: ~/.oh-my-zsh
 
 - name: "Change the user's default shell to Zsh"
-  command: chsh -s /bin/zsh
+  user: name=vagrant shell=/bin/zsh
+  become: yes
