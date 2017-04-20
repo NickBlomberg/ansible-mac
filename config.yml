@@ -3,6 +3,9 @@ downloads: ~/.ansible-downloads/
 
 configure_sudoers: yes
 
+user: nick
+user_home: /Users/{{ user }}/
+
 dotfiles_repo: https://github.com/NickBlomberg/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/.dotfiles

@@ -14,6 +14,6 @@
     - include: tasks/preferences.yml
 
     - name: Run .macos dotfile
-      shell: bash /Users/vagrant/.macos --no-restart
+      shell: bash {{ user_home }}.macos --no-restart
       changed_when: false
       become: yes
