@@ -4,6 +4,7 @@
   git:
     repo: https://github.com/robbyrussell/oh-my-zsh.git
     dest: "{{ user_home }}.oh-my-zsh"
+  become: yes
 
 - name: "Change the user's default shell to Zsh"
   user: name={{ user }} shell=/bin/zsh
