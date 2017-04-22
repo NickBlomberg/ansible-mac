@@ -8,7 +8,7 @@ user_home: /Users/{{ user }}/
 
 dotfiles_repo: https://github.com/NickBlomberg/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/.dotfiles
+dotfiles_repo_local_destination: "{{ user_home }}/.dotfiles"
 dotfiles_files:
   - .gitconfig
   - .gitignore
